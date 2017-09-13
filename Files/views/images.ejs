@@ -1,0 +1,12 @@
+<% include ./partials/header.ejs %>
+
+<% var size=12 %>
+<div class="container">
+    <div class=row>
+    <% images.forEach(function(image){ %>
+        <img class="col-lg-<%=size%>  src="<%=image%>">
+    <% }); %>
+    </div>
+</div>
+
+<% include ./partials/footer.ejs %>

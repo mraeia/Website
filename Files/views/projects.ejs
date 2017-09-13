@@ -1,0 +1,20 @@
+<% include ./partials/header.ejs %>
+
+<div class="container">
+    <h1> Some of the projects which I worked on so far ...</h1>
+    <br>
+    <% projects.forEach(function(project,i){ %>
+          <h4 class="ptitle"><%=project.title%></h4>
+          <%project.image.forEach(function(image){%>
+              <% var imageId = image.replace("https:\/\/","");%>
+              <a href="/projects/<%=imageId%>"> <img class="pimg thumbnail"src="<%=image%>"> </a>
+          <% }); %>
+          <p class="body"> <%=project.body%></p>
+          <% if(i != projects.length - 1){ %>
+          <hr class="hr-style">
+          <% } %>
+    <% }); %>
+</div>
+
+
+<% include ./partials/footer.ejs %>

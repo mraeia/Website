@@ -1,0 +1,142 @@
+img{
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+}
+
+.pimg {
+	transition: all 0.22s;
+	display: inline-block;
+	margin:20px 20px;
+	width: 500px;
+}
+
+.pimg:hover {
+	-webkit-filter: drop-shadow(8px 8px 10px black); /* Safari 6.0 - 9.0 */
+    filter: drop-shadow(8px 8px 10px black);
+}
+
+.ptitle{
+	text-decoration: underline;
+}
+.thumbnail {
+	border: 2px solid black;
+	padding :0;
+	/*margin-top: 30px;*/
+}
+
+h3{
+	font-weight: bold;
+}
+
+a i {
+	color : black;
+}
+
+.intro{
+	line-height: 200%;
+}
+
+.intro::first-letter{
+	font-size: 200%;
+}
+
+#title{
+	text-align: center;
+}
+
+.hr-style{
+	margin-top: 0px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.jumbotron{
+	height:200px;
+	background-color: black;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+	padding-top: 70px;
+  	background: white;
+  	color:black;
+}
+
+.navbar-inverse{
+	background-color: black;
+	border-color: black;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+	transition: all 0.28s;
+}
+
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+
+.navbar-brand{
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+   color : grey;
+}
+
+li a i{
+	color:white;
+	padding: 0;
+}
+
+li a {
+	padding: 0;
+}
+
+
+.navbar-right li a {
+    padding-top: 12px;
+    padding-bottom: 0;
+    transition: color 0.2s;
+}
+
+.navbar-right li a:hover{
+	filter : invert(50%);
+}
+
+.picture{
+	width:1000px;
+	height:600px;
+	margin: 0 auto;
+	display: block;
+}
+
+.body
+{
+	margin-top: 10px;
+}
+
+iframe
+{
+	display : block;
+	border: 4px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.btn.btn-primary
+{
+	transition: all 0.28s;;
+	border:none;
+	background-color:black;
+	width: 150px;
+	display:block;
+	margin:40px auto;	
+}
+
+.btn.btn-primary:hover
+{
+	color:grey;
+}
